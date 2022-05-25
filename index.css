@@ -1,0 +1,90 @@
+body{
+    font-family: system-ui;
+    align-content: center;
+}
+.wraper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.searched {
+    border-radius: 10px;
+    margin-left: 40px;
+    width: 250px;
+    height: 32px;
+    background: url('https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/search.png') no-repeat 8px 6px;
+    background-size: 24px 24px;
+    background-position: 5px right 2px left;
+    padding-left: 33px;
+    border-style: solid;
+    border-color: #2c3e50;
+    border-width: 1px;
+    background-color: white;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+
+#submitbutton {
+    height: 40px;
+    
+    font-family: Arial;
+    color: #ffffff;
+    background: #2c3e50;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-color: #2c3e50;
+
+}
+
+::-webkit-input-placeholder {
+    opacity: 0.7;
+    color: grey;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    opacity: 0.7;
+    color: #ecf0f1;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    opacity: 0.7;
+    color: #ecf0f1;
+}
+
+:-ms-input-placeholder {
+    opacity: 0.7;
+    color: #ecf0f1;
+}
+
+li{ 
+    border-radius: 10px;
+
+    text-align: left;
+    width: 250px;
+    height: 32px;
+    background-size: 24px 24px;
+    background-position: 5px right 2px left;
+    padding-left: 33px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: #2c3e50;
+    border-width: 1px;
+    background-color: #483D8B;
+    color: white;
+    margin-top: 5px;
+    margin-bottom:5px ;
+
+}
+.not-found{
+    background-color: #FF8C00;
+    border-radius: 10px;
+
+}
+
+ul{
+    list-style-type: none;
+}
