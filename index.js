@@ -1,7 +1,7 @@
 const input = document.querySelector(".searched");
 const ulEl = document.querySelector(".searchList")
 
-const defaultArr = ["banana","apple","potato"]
+const defaultArr = ["banana","apple","potato","orange"]
 
 displayList(defaultArr);
 input.addEventListener('input', function (e) {
